@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #8EC5FC;
+    background-image: -webkit-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -moz-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -o-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: 'Noto Sans Mono', monospace;
+    height: 90vh;
+}
+
+
+.title {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.form {
+    height: 30px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;;
+}
+
+#btn {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 0;
+    border-radius: 0px 9px 9px 0px;
+    transition: 0.1s ease-in-out;
+    font-weight: 600;
+}
+
+#btn:hover {
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#input {
+    height: auto;
+    border: 0;
+    border-radius: 9px 0px 0px 9px;
+    padding-left: 10px;
+}
+
+#input:focus {
+    outline: none;
+}
+
+
+#input::placeholder {
+    letter-spacing: 0.1px;
+}
+
+.notification {
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 0.3px;
+}
